@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+:root {
+  --color-scheme1-NavBack: #fff;
+  --color-scheme1-text: #000;
+  --color-scheme1-fill: #149bfc;
+  --color-scheme1-searchBackground: #f6f6f6;
+  --color-scheme1-searchText: #000;
+  --color-scheme1-background: #fff;
+  --color-scheme1-buttonBackground: #149bfc;
+  --color-scheme1-buttonText: #fff;
+
+  --color-scheme2-NavBack: #000;
+  --color-scheme2-text: #fff;
+  --color-scheme2-fill: #fff;
+  --color-scheme2-searchBackground: #45b1ff;
+  --color-scheme2-searchText: #fff;
+  --color-scheme2-background: #149bfc;
+  --color-scheme2-buttonBackground: #fff;
+  --color-scheme2-buttonText: #149bfc;
+
+  --color-scheme3-NavBack: #f00;
+  --color-scheme3-text: #000;
+  --color-scheme3-fill: #adff45;
+  --color-scheme3-searchBackground: #adff45;
+  --color-scheme3-searchText: #000;
+  --color-scheme3-background: #fff;
+  --color-scheme3-buttonBackground: #adff45;
+  --color-scheme3-buttonText: #000;
+
+  --color-scheme4-NavBack: #00f;
+  --color-scheme4-text: #fff;
+  --color-scheme4-fill: #149bfc;
+  --color-scheme4-searchBackground: #373737;
+  --color-scheme4-searchText: #fff;
+  --color-scheme4-background: #0e0e0e;
+  --color-scheme4-buttonBackground: #fff;
+  --color-scheme4-buttonText: #000;
+
+  --color-scheme5-NavBack: #00f;
+  --color-scheme5-text: #fff;
+  --color-scheme5-fill: #fff;
+  --color-scheme5-searchBackground: #4563ff;
+  --color-scheme5-searchText: #fff;
+  --color-scheme5-background: #1447fc;
+  --color-scheme5-buttonBackground: #fff;
+  --color-scheme5-buttonText: #1447fc;
+
+  --color-scheme6-NavBack: #00f;
+  --color-scheme6-text: #fff;
+  --color-scheme6-fill: #adff45;
+  --color-scheme6-searchBackground: #adff45;
+  --color-scheme6-searchText: #000;
+  --color-scheme6-background: #000;
+  --color-scheme6-buttonBackground: #adff45;
+  --color-scheme6-buttonText: #000;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+input:focus,
+input.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
